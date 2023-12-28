@@ -1,11 +1,11 @@
 body {
-    background-color: black;
+	background-color: black;
 	text-align: center;
 	color: lightgray;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
@@ -17,4 +17,24 @@ table {
 	width: 40px;
 	height: 40px;
 	font-size: 1.5em;
+}
+
+.modal {
+	
+	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+	margin: auto;
+	padding: 5px;
+	width: 100px;
+	
+	
+}
+
+.modal button {
+	float: middle;
+	cursor: pointer;
+	background-color: beige;
+}
+
+.hide {
+	display: none;
 }
