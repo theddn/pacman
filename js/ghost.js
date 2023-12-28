@@ -51,7 +51,7 @@ function moveGhost(ghost) {
     // TODO: hitting a pacman? call gameOver
     if (nextCell === PACMAN) {
         if (gPacman.isSuper) return
-        updateScore(gGame.score)
+        updateScore(gGame.score = 0)
         gameOver()
         return
     }

@@ -32,7 +32,7 @@ function movePacman(ev) {
         if (gPacman.isSuper) {
             killGhost(nextLocation)
         } else {
-            updateScore(gGame.score)
+            updateScore(gGame.score = 0)
             gameOver()
             return
         }
